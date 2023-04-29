@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0px 0px;
+}
+
+
+
+/**************** Sign In Box **************/
+
+#sign_in_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 600px;
+    margin-left: 140px;
+    padding-bottom: 0;
+}
+
+
+h2 {
+    margin: 0 80px 37px 0;
+    font-size: 50px;
+    font-weight: 550;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 75%;
+}
+
+
+.icon_box {
+    display: flex;
+    align-items: center;
+    width: 350px;
+}
+
+
+i {
+    display: block;
+    color: black;
+    border: 1.25px solid rgb(149, 149, 149);
+    width: 40px;
+    border-right: 0;
+    padding: 23px 0px 23px 25px;
+    border-radius: 25px 0 0 25px;
+}
+
+
+input {
+    display: block;
+    border-radius: 0 25px 25px 0;
+    border: 1.25px solid rgb(149, 149, 149);
+    border-left: 0;
+    width: 100%;
+    height: 47px;
+    padding-left: 4px;
+    font-size: 16px;
+    margin: 21px 21px 21px 0;
+    font-family: Verdana;
+    font-size: smaller;
+    letter-spacing: 0.05em;
+}
+
+
+input[type=password] {
+    font-family: Verdana;
+    letter-spacing: 0.125em;
+}
+
+
+button {
+    display: block;
+    border-radius: 25px;
+    width: 40%;
+    height: 43px;
+    background-color: rgba(44, 81, 249, 0.913);
+    color: white;
+    font-size: 17px;
+    transition-duration: 0.3s;
+    margin: 30px 25px 0 0;
+}
+
+
+button:hover {
+    background-color: rgba(27, 43, 188, 0.913);
+}
+
+
