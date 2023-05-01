@@ -113,8 +113,7 @@ button:hover {
 #background {
     width: 50vw;
     height: 95vh;
-    border-bottom-left-radius: 20% 3%;
-    border-bottom-right-radius: 100% 100%;
+    border-radius:0% 90% 85% 12% / 10% 0% 100% 3%; 
     background-color: blue;
 }
 
@@ -142,5 +141,32 @@ button:hover {
     font-size: 1.5vw;
     font-weight: 510;
     cursor: pointer;
+    align-items: center;
+    transition-duration: 0.3s;
+    display:block;
 }
 
+/******Background-Image******/
+
+.resize {
+    width: 300px;
+    height: auto;
+}
+
+.resize {
+    width: 473px;
+    height: auto;
+}
+
+.resize {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.links {
+    position: absolute;
+    right: 100px;
+    width: 400px;
+}
+    
+    
