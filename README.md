@@ -1,6 +1,6 @@
-# CRM_Project_Group_1 Ashley Hall
+# CRM_Project_Group_1
 
-
+<pre>
 CRM_Project (Group 1)
 
 Sign In Page for CRM Website
@@ -32,7 +32,7 @@ Repositioned background image
 Added social platform images
 
 
-
+</pre>
 Ashley Hall...
 
 I was tasked with adding the background image as well as site functionality. 
