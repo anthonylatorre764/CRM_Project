@@ -1,8 +1,39 @@
 # CRM_Project_Group_1 Ashley Hall
 
-CRM_Project (Group Work)
 
 CRM_Project (Group 1)
+
+Sign In Page for CRM Website
+
+
+Authors:
+
+Anthony LaTorre
+Kevin Baker
+Ashley Hall
+
+
+
+Contributions:
+
+
+Anthony LaTorre...
+
+Added Sign Up
+Resized Sign Up
+
+
+
+Kevin Baker...
+
+Added Sign Up
+Added blue background
+Repositioned background image
+Added social platform images
+
+
+
+Ashley Hall...
 
 I was tasked with adding the background image as well as site functionality. 
 
