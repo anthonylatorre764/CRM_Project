@@ -5,6 +5,8 @@ CRM_Project (Group 1)
 
 Sign In Page for CRM Website
 
+(recommendation: view the "sign in" webpage in full screen - for responsiveness reasons)
+
 
 Authors:
 
@@ -21,7 +23,7 @@ Anthony LaTorre...
 
 Added Sign Up
 Resized Sign Up
-
+Repositioned social links
 
 
 Kevin Baker...
