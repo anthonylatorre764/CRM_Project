@@ -25,7 +25,7 @@ body {
     margin-top: 60px;
     width: 700px;
     height: 670px;
-    margin: 90px 0 0 240px;
+    margin: 90px 0 11px 240px;
     padding-bottom: 0;
 }
 
@@ -84,7 +84,7 @@ input[type=password] {
 }
 
 
-.signin {
+.signin-btn {
     display: block;
     border-radius: 39px;
     width: 45%;
@@ -99,7 +99,7 @@ input[type=password] {
 }
 
 
-button:hover {
+.signin-btn:hover {
     background-color: rgba(27, 43, 188, 0.913);
 }
 
@@ -135,7 +135,7 @@ button:hover {
     font-weight: 510;
 }
 
-.sign-up-btn {
+#sign-up-btn {
     margin-left: 16.8vw;
     margin-top: 1vh;
     width: 11.5vw;
@@ -152,36 +152,63 @@ button:hover {
     display:block;
 }
 
+#sign-up-btn:hover {
+    background-color: rgba(27, 43, 188, 0.913);
+}
+
 /******Background-Image******/
 
-.resize {
-    width: 300px;
-    height: auto;
-}
 
 .resize {
     width: 473px;
     height: auto;
-}
-
-.resize {
     margin-left: auto;
     margin-right: auto;
     padding-top: 12.6vh;
 }
 
-.links {
-    position: absolute;
-    right: 250px;
+#social_heading {
+    margin: 20px 0 30px 460px;
+}
+
+#links_box {
+/*  position: absolute;   */
+    display: flex;
+    justify-content: space-around;
+    margin-left: 390px;
+    right: 140px;
     width: 400px;
 }
 
-#social {
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: 1px solid black;
+    color: black;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
-    padding: 25px 25px;
     margin-right: 1vw;
 }
+
+.button:hover {
+    background-color: rgb(231, 231, 231);
+}
+
+#facebook {
+    color: black;
+}
+#twitter {
+    color: black;
+}
+#google {
+    color: black;
+}
+#linkedin {
+    color: black;
+}
+
 
 p {
     margin-top: 10px;
